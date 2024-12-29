@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F264AA8A2D20880E002B30A5 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AA892D20880E002B30A5 /* HelloWorldApp.swift */; };
-		F264AA8C2D20880E002B30A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AA8B2D20880E002B30A5 /* ContentView.swift */; };
 		F264AA8E2D208811002B30A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F264AA8D2D208811002B30A5 /* Assets.xcassets */; };
 		F264AA912D208811002B30A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F264AA902D208811002B30A5 /* Preview Assets.xcassets */; };
 		F264AA9B2D208812002B30A5 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AA9A2D208812002B30A5 /* HelloWorldTests.swift */; };
 		F264AAA52D208812002B30A5 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAA42D208812002B30A5 /* HelloWorldUITests.swift */; };
 		F264AAA72D208812002B30A5 /* HelloWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAA62D208812002B30A5 /* HelloWorldUITestsLaunchTests.swift */; };
+		F264AAB52D208C9B002B30A5 /* WorkoutPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAB42D208C9B002B30A5 /* WorkoutPlan.swift */; };
+		F264AAB72D208CAE002B30A5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAB62D208CAE002B30A5 /* Exercise.swift */; };
+		F264AABA2D208CCC002B30A5 /* WorkoutPlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAB92D208CCC002B30A5 /* WorkoutPlanListView.swift */; };
+		F264AABC2D208CDD002B30A5 /* AddWorkoutPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AABB2D208CDD002B30A5 /* AddWorkoutPlanView.swift */; };
+		F264AAC02D208D06002B30A5 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AABF2D208D06002B30A5 /* AddExerciseView.swift */; };
+		F264AAC32D208D28002B30A5 /* WorkoutPlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAC22D208D28002B30A5 /* WorkoutPlanViewModel.swift */; };
+		F264AAC52D208D3D002B30A5 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAC42D208D3D002B30A5 /* ExerciseViewModel.swift */; };
+		F264AAC82D208D5F002B30A5 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AAC72D208D5F002B30A5 /* PersistenceManager.swift */; };
+		F264AACB2D208D7F002B30A5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AACA2D208D7F002B30A5 /* NotificationManager.swift */; };
+		F264AACD2D2094F6002B30A5 /* WorkoutPlanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AACC2D2094F6002B30A5 /* WorkoutPlanDetailView.swift */; };
+		F264AACF2D209784002B30A5 /* EditWorkoutPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264AACE2D209784002B30A5 /* EditWorkoutPlanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		F264AA862D20880E002B30A5 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F264AA892D20880E002B30A5 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
-		F264AA8B2D20880E002B30A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F264AA8D2D208811002B30A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F264AA902D208811002B30A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F264AA962D208811002B30A5 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		F264AAA02D208812002B30A5 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F264AAA42D208812002B30A5 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		F264AAA62D208812002B30A5 /* HelloWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F264AAB42D208C9B002B30A5 /* WorkoutPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlan.swift; sourceTree = "<group>"; };
+		F264AAB62D208CAE002B30A5 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		F264AAB92D208CCC002B30A5 /* WorkoutPlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanListView.swift; sourceTree = "<group>"; };
+		F264AABB2D208CDD002B30A5 /* AddWorkoutPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutPlanView.swift; sourceTree = "<group>"; };
+		F264AABF2D208D06002B30A5 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		F264AAC22D208D28002B30A5 /* WorkoutPlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanViewModel.swift; sourceTree = "<group>"; };
+		F264AAC42D208D3D002B30A5 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		F264AAC72D208D5F002B30A5 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		F264AACA2D208D7F002B30A5 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		F264AACC2D2094F6002B30A5 /* WorkoutPlanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanDetailView.swift; sourceTree = "<group>"; };
+		F264AACE2D209784002B30A5 /* EditWorkoutPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkoutPlanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,12 @@
 		F264AA882D20880E002B30A5 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				F264AAC92D208D66002B30A5 /* Notifications */,
+				F264AAC62D208D4A002B30A5 /* Persistence */,
+				F264AAC12D208D0E002B30A5 /* ViewModels */,
+				F264AAB82D208CB6002B30A5 /* Views */,
+				F264AAB32D208C70002B30A5 /* Models */,
 				F264AA892D20880E002B30A5 /* HelloWorldApp.swift */,
-				F264AA8B2D20880E002B30A5 /* ContentView.swift */,
 				F264AA8D2D208811002B30A5 /* Assets.xcassets */,
 				F264AA8F2D208811002B30A5 /* Preview Content */,
 			);
@@ -125,6 +149,52 @@
 				F264AAA62D208812002B30A5 /* HelloWorldUITestsLaunchTests.swift */,
 			);
 			path = HelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		F264AAB32D208C70002B30A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F264AAB42D208C9B002B30A5 /* WorkoutPlan.swift */,
+				F264AAB62D208CAE002B30A5 /* Exercise.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F264AAB82D208CB6002B30A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F264AAB92D208CCC002B30A5 /* WorkoutPlanListView.swift */,
+				F264AABB2D208CDD002B30A5 /* AddWorkoutPlanView.swift */,
+				F264AABF2D208D06002B30A5 /* AddExerciseView.swift */,
+				F264AACC2D2094F6002B30A5 /* WorkoutPlanDetailView.swift */,
+				F264AACE2D209784002B30A5 /* EditWorkoutPlanView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F264AAC12D208D0E002B30A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F264AAC22D208D28002B30A5 /* WorkoutPlanViewModel.swift */,
+				F264AAC42D208D3D002B30A5 /* ExerciseViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F264AAC62D208D4A002B30A5 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				F264AAC72D208D5F002B30A5 /* PersistenceManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F264AAC92D208D66002B30A5 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				F264AACA2D208D7F002B30A5 /* NotificationManager.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +327,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F264AA8C2D20880E002B30A5 /* ContentView.swift in Sources */,
+				F264AAB52D208C9B002B30A5 /* WorkoutPlan.swift in Sources */,
+				F264AABC2D208CDD002B30A5 /* AddWorkoutPlanView.swift in Sources */,
+				F264AACD2D2094F6002B30A5 /* WorkoutPlanDetailView.swift in Sources */,
+				F264AAB72D208CAE002B30A5 /* Exercise.swift in Sources */,
+				F264AAC32D208D28002B30A5 /* WorkoutPlanViewModel.swift in Sources */,
+				F264AAC02D208D06002B30A5 /* AddExerciseView.swift in Sources */,
+				F264AACB2D208D7F002B30A5 /* NotificationManager.swift in Sources */,
+				F264AACF2D209784002B30A5 /* EditWorkoutPlanView.swift in Sources */,
+				F264AAC52D208D3D002B30A5 /* ExerciseViewModel.swift in Sources */,
+				F264AABA2D208CCC002B30A5 /* WorkoutPlanListView.swift in Sources */,
+				F264AAC82D208D5F002B30A5 /* PersistenceManager.swift in Sources */,
 				F264AA8A2D20880E002B30A5 /* HelloWorldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
